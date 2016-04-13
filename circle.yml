@@ -2,10 +2,8 @@
 # Build configuration for Circle CI
 #
 
-pre:
-    - sudo add-apt-repository ppa:cwchien/gradle -y
-    - sudo apt-get update
-    - sudo apt-get install gradle-2.6
+before_install:
+    -chmod +x gradelw
 
 general:
     artifacts:
