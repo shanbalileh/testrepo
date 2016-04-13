@@ -2,9 +2,6 @@
 # Build configuration for Circle CI
 #
 
-before_install:
-    -chmod +x gradelw
-
 general:
     artifacts:
         - /home/ubuntu/Unit_test/app/build/outputs/apk/
