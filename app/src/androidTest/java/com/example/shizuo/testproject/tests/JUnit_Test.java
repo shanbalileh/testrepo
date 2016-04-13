@@ -15,6 +15,7 @@ public class JUnit_Test extends ActivityInstrumentationTestCase2<MainActivity> {
         super(MainActivity.class);
     }
 
+
     public void test_first() {
         mainActivity = getActivity();
 
